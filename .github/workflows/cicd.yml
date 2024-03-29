@@ -38,5 +38,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: Vladimir4123/students:latest
+          tags: ${{ github.actor }}/students:latest
       
