@@ -38,5 +38,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: vladimir4123/students:latest
+          tags: Vladimir4123/students:latest
       
